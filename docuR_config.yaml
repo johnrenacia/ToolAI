@@ -1,0 +1,12 @@
+query_statement:
+  conditions: condition1=1 AND contiond2=2
+  fields: field1,field2,field3
+  table: table
+redshift:
+  environment:
+    REDSHIFT_DB: iris_trusted_zone
+    REDSHIFT_HOST: redshift.dev.iris.informa.com
+    REDSHIFT_PASSWORD: pass
+    REDSHIFT_USER: user
+  ports: '5439'
+version: '1.0'
